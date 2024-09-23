@@ -4,7 +4,7 @@
 clear
 echo "Let's build a mad-lib!"
 
-# 8 user prompts to fill in the madlib
+# User prompts to fill in the madlib
 read -p "1. Name an adjective: " ADJ1
 read -p "2. Name an adjective: " ADJ2
 read -p "3. Name a type of bird: " BIRD
@@ -20,4 +20,5 @@ read -p "12. Name a noun (plural): " NOUN2
 read -p "13. Name a verb ending in -ing: " VERB4
 read -p "14. Name a noun: " NOUN3
 
-
+# Reading out the madlib
+read -p "It was a $ADJ1, cold November day. I woke up to the $ADJ2 smell of $BIRD roasting in the $ROOM downstairs. I $VERB1 down the stairs to see if I could help $VERB2 the dinner. My mom said, 'See if $PRSON needs a fresh $NOUN1.' So I carred a tray of glasses full of $LQD into the $VERB3 room. When I got there, I couldn't believe my $BODY! There were $NOUN2 $VERB4 on the $NOUN3!" 
